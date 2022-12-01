@@ -45,9 +45,9 @@ func main() {
 		}
 	}
 
-  fmt.Printf("gamma: %f\n", gamma)
-  fmt.Printf("epsilon: %f\n", epsilon)
-  fmt.Printf("solution: %f\n", gamma * epsilon)
+	fmt.Printf("gamma: %f\n", gamma)
+	fmt.Printf("epsilon: %f\n", epsilon)
+	fmt.Printf("solution: %f\n", gamma*epsilon)
 
-  // life support rating = oxygen generator rating * co2 scrubber rating
+	// life support rating = oxygen generator rating * co2 scrubber rating
 }
