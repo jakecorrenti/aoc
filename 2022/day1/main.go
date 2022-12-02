@@ -15,8 +15,7 @@ func main() {
 		fmt.Printf("Err: %s", err)
 	}
 
-	data := string(bytes)
-	split := strings.Split(data, "\n")
+	split := strings.Split(string(bytes), "\n")
 
 	// Part 1
 
