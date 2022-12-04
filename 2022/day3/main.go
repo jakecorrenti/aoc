@@ -16,6 +16,7 @@ func main() {
 	split := strings.Split(string(bytes), "\n")
 
 	shared := []rune{}
+
 	// Part 1
 
 	//for _, s := range split {
@@ -42,6 +43,7 @@ func main() {
 	//}
 	//fmt.Println(total)
 
+	// Part 2
 	for i := 0; i < len(split)-3; i += 3 {
 		s1 := split[i]
 		s2 := split[i+1]
